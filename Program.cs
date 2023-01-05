@@ -1,11 +1,28 @@
+using System.Web.Http.Cors;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy",
+    builder => builder
+    .SetIsOriginAllowed((host) => true)
+    .AllowAnyMethod()
+    .AllowCredentials()
+    .AllowAnyHeader());
+});
+//EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+//ConfigurationBinder.EnableCors(cors);
+//builder.Configuration.AddCors(cors => cors);
 var db = new Db();
 builder.Services.AddSingleton<Db>(db);
 
 builder.Services.AddControllers();
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -21,6 +38,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

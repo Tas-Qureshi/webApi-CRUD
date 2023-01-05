@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj": {}
+    "C:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj": {}
   },
   "projects": {
-    "c:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj": {
+    "C:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj",
+        "projectUniqueName": "C:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj",
         "projectName": "webApi-new",
-        "projectPath": "c:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj",
+        "projectPath": "C:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\webApi-new.csproj",
         "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-        "outputPath": "c:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\obj\\",
+        "outputPath": "C:\\salt\\precourse\\FinalProject\\WebApi-PrecourseProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.1, )"

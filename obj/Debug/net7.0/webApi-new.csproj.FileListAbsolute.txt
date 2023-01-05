@@ -64,3 +64,9 @@ C:\salt\precourse\FinalProject\WebApi-PrecourseProject\obj\Debug\net7.0\refint\w
 C:\salt\precourse\FinalProject\WebApi-PrecourseProject\obj\Debug\net7.0\webApi-new.pdb
 C:\salt\precourse\FinalProject\WebApi-PrecourseProject\obj\Debug\net7.0\webApi-new.genruntimeconfig.cache
 C:\salt\precourse\FinalProject\WebApi-PrecourseProject\obj\Debug\net7.0\ref\webApi-new.dll
+C:\salt\precourse\FinalProject\WebApi-PrecourseProject\bin\Debug\net7.0\System.Web.Cors.dll
+C:\salt\precourse\FinalProject\WebApi-PrecourseProject\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\salt\precourse\FinalProject\WebApi-PrecourseProject\bin\Debug\net7.0\System.Web.Http.dll
+C:\salt\precourse\FinalProject\WebApi-PrecourseProject\bin\Debug\net7.0\System.Web.Http.Cors.dll
+C:\salt\precourse\FinalProject\WebApi-PrecourseProject\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\salt\precourse\FinalProject\WebApi-PrecourseProject\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
